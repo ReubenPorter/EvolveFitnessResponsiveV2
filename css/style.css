@@ -138,6 +138,28 @@ footer ul{
   width: auto;
 }
 
+.splitbox{
+  height: 700px;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.leftbox{
+  height: 350px;
+  width: 49%;
+  border: 1px solid red;
+}
+
+.rightbox{
+  height: 350px;
+  width: 49%;
+  border: 1px solid red;
+}
+
 @media only screen and (max-width: 1024px){
   header h1{
     position: absolute;
